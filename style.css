@@ -1,0 +1,126 @@
+.container-fluid {
+            background: rgb(255, 254, 254);
+            width: 35%;
+            height: auto;
+            margin-top: 40px;
+            border-radius: 7px;
+        }
+
+        .container {
+            border: 10px solid black;
+            background: linear-gradient(45deg, purple, orange);
+            padding: 10px;
+            box-shadow: 0 0 0 .9em #655;
+            display: inline-block;
+            border-bottom-width: 15px;
+        }
+
+        .container .center {
+            background: orange;
+            background-size: cover;
+            box-sizing: border-box;
+            width: 625.6px;
+            top: -9.7px;
+            height: 230px;
+            position: relative;
+            right: 10.1px;
+            border-bottom-left-radius: 50% 60%;
+            border-bottom-right-radius: 50% 60%;
+        }
+
+        .container .image img {
+            position: fixed;
+            width: 200px;
+            border-radius: 50%;
+            margin-top: 9px;
+            margin-left: 14rem;
+            /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        }
+
+        .container .image img:hover {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        .container .name {
+            color: orange;
+            font-size: 30px;
+            font-weight: 900;
+            margin-left: 13rem;
+            margin-top: 10px;
+        }
+
+        .container .skill {
+            margin-left: 12.5rem;
+            font-weight: 500;
+            margin-top: 2px;
+        }
+
+        .container .number {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 50px;
+            font-size: 25px;
+            font-weight: 700;
+            color: orange;
+        }
+
+        .container .nu-details {
+            display: flex;
+            justify-content: space-evenly;
+            margin-left: 15px;
+            margin-top: -15px;
+        }
+
+        .container .introduce {
+            text-align: center;
+            margin-left: 40px;
+            font-size: large;
+        }
+
+        .container .btn,
+        .btn1 {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .container .btn button {
+            width: 100px;
+            padding: 7px;
+            border: none;
+            background: rgb(243, 141, 46);
+            font-size: large;
+            font-weight: 500;
+            border-radius: 30px;
+            margin-top: 10px;
+        }
+
+        .container .btn button:hover {
+            background: orange;
+        }
+
+        .container .btn1 button {
+            margin-top: 30px;
+            margin-bottom: 50px;
+            width: 150px;
+            padding: 8px;
+            border: none;
+            font-size: large;
+            font-weight: 500;
+            border: 2px solid orange;
+        }
+
+        .follow {
+            background: orangered;
+            color: white;
+
+        }
+
+        .follow:hover {
+            background: rgb(228, 80, 16);
+        }
+
+        .message {
+            color: orange;
+            background: rgb(242, 239, 239);
+        }
